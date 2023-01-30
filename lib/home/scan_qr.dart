@@ -60,7 +60,9 @@ class _scanQrState extends State<scanQr> {
         result = scanData;
         if (result != null) {
           Navigator.push(
-              context, MaterialPageRoute(builder: (context) => details()));
+              // sdfds
+              context,
+              MaterialPageRoute(builder: (context) => details()));
         }
       });
     });
